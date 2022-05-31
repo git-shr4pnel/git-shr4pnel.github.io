@@ -5,7 +5,7 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-            <div class="container pt-5">
+            <div class="container pt-5 nowrap">
                 <div class="row">
                     <div class="col">               
                         <h1>Tyler D.</h1>
